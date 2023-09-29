@@ -19,6 +19,13 @@
         <div class="orange">
             <img src="meme.png" alt="lol" />
         </div>
+        <div class="stain"></div>
     </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.1/dist/confetti.browser.min.js"></script>
+    <script>
+        const stain = document.querySelector('.stain');
+        stain.addEventListener('mouseover', () => confetti());
+    </script>
 </body>
 </html>
