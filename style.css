@@ -117,9 +117,4 @@ img:hover {
     top: 50%;
     left: 80%;
     transform: translateY(-50%);
-    transition: transform 0.3s ease-in-out; /* Ajoute une transition fluide */
-}
-
-.stain:hover {
-    transform: scale(1.5); /* Ajuste la valeur selon tes besoins pour l'explosion */
 }
