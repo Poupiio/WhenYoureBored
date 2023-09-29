@@ -1,0 +1,108 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-height: 100vh;
+}
+
+img { 
+    opacity: 0;
+    object-fit: cover;
+    transition: opacity 0.4s ease-in-out;
+}
+
+img:hover {
+    opacity: 1;
+}
+
+.container {
+    background: lavender;
+    width: 500px;
+    height: 500px;
+    margin: 100px auto;
+
+    position: relative;
+}
+
+.yellow {
+    width: 120px;
+    height: 120px;
+    background: #fbe09cb8;
+    border-radius: 65% 35% 45% 55% / 31% 48% 52% 69%;
+
+    position: absolute;
+    top: 50px;
+    right: -50px;
+}
+
+.blue {
+    width: 80px;
+    height: 80px;
+    background: rgba(24, 24, 195, 0.327);
+    border-radius: 50%;
+
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: -1;
+}
+
+.pink {
+    width: 180px;
+    height: 180px;
+    background: rgba(255, 192, 203, 0.689);
+    border-radius: 0% 100% 0% 100% / 0% 100% 0% 100%;
+
+    position: absolute;
+    bottom: -40px;
+    left: -80px;
+}
+
+.pink img {
+    width: 180px;
+    height: 180px;
+    border-radius: 0% 100% 0% 100% / 0% 100% 0% 100%;
+}
+
+.green {
+    width: 280px;
+    height: 120px;
+    border-radius: 65% 35% 45% 55% / 100% 100% 0% 0%;
+    background: rgb(208, 231, 210);
+
+    position: absolute;
+    bottom: 0;
+    right: -160px;
+}
+
+.green img {
+    width: 280px;
+    height: 120px;
+    border-radius: 65% 35% 45% 55% / 100% 100% 0% 0%;
+}
+
+.orange {
+    width: 150px;
+    height: 150px;
+    background: rgba(239, 180, 149, 0.645);
+    border-radius: 35% 65% 43% 57% / 59% 36% 64% 41%;
+
+    position: absolute;
+    top: 170px;
+    left: 70px;
+}
+
+.orange img {
+    width: 150px;
+    height: 150px;
+    border-radius: 35% 65% 43% 57% / 59% 36% 64% 41%;
+}
+
+/* .green img:hover {
+    opacity: 1;
+    object-fit: cover;
+} */
