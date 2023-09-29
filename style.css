@@ -39,16 +39,21 @@ img:hover {
 }
 
 .blue {
-    width: 80px;
-    height: 80px;
+    width: 120px;
+    height: 180px;
     background: rgba(24, 24, 195, 0.327);
     border-radius: 50%;
 
     position: absolute;
-    top: -20px;
+    top: -3px;
     left: 50%;
     transform: translateX(-50%);
     z-index: -1;
+    transition: top 0.4s;
+}
+
+.blue:hover {
+    top: -60px;
 }
 
 .pink {
